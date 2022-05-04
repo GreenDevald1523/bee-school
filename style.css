@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('./fonts/12093.ttf');
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+    background: none;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: 96px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    height: 100%;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+}
+
+.logo {
+    position: relative;
+    padding-top: 26.65px;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.menu__items {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menu__item {
+    font-size: 16px;
+    margin-left: 26.88px;
+}
+
+.menu__item:last-child {
+    border: 1px solid #202020;
+    padding: 15.49px 33.11px 11.97px 32.9px;
+    border-radius: 30px;
+    font-weight: 300;
+}
+
+.main {}
+
+.sec-1 {
+    position: relative;
+}
+
+.sec-1 .container {
+    position: relative;
+    z-index: 1;
+}
+
+.sec-1-bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 0;
+    margin-top: -1368px;
+}
+
+.sec-1-bg img {
+    width: 100%;
+    z-index: 0;
+}
+
+.sec-1-title {
+    font-size: 37px;
+    text-align: center;
+    padding-top: 248px;
+    font-family: 'Proxima Nova Regular';
+}
+
+.sec-1-teachers {
+    margin-top: 140px;
+    scroll-snap-type: x proximity;
+    overflow-x: scroll;
+}
+
+.sec-1-teacher {
+    width: 580px;
+    height: 431px;
+    padding-right: 140px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    padding-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    scroll-snap-align: start;
+    border: 1px solid #999999;
+    position: relative;
+}
+
+.row1,
+.row2 {
+    display: flex;
+}
+
+.sec-1-teacher-left {
+    margin-left: 19px;
+    margin-right: 31px;
+}
+
+.sec-1-teacher-right {}
+
+.teacher-name {
+    font-size: 20px;
+    margin-bottom: 6.58px;
+    font-family: 'Proxima Nova Regular';
+}
+
+.teacher-specialisation {
+    font-size: 16px;
+    color: #EC9D11;
+    margin-bottom: 6.38px;
+}
+
+.teacher-info {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(46, 40, 67, 0.92);
+    width: 258px;
+    height: 292px;
+}
+
+.teacher-lessons {
+    width: 246px;
+    height: 40px;
+    background: #EC9D11;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Proxima Nova Regular';
+    position: absolute;
+    bottom: 13.5px;
+}
+
+b {
+    font-weight: 500;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.scroll-line {
+    width: 100%;
+    height: 10px;
+    border-radius: 30px;
+    background: #D3D2D6;
+    position: relative;
+    top: 0px;
+    z-index: 0;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #D3D2D6;
+    border-radius: 30px;
+    display: none;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #2E2843;
+    border-radius: 30px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {}
+
+.sec-2 {
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+}
+
+.sec-2 .container {
+    display: flex;
+}
+
+.sec-2-left {
+    position: relative;
+}
+
+.sec-2-left img {}
+
+.sec-2-right {
+    margin-left: 78.43px;
+    position: relative;
+    z-index: 3;
+    margin-top: 278px;
+}
+
+.sec-2-right-title {
+    font-size: 37px;
+    font-family: 'Proxima Nova Regular';
+    margin-left: 10px;
+}
+
+.sec-2-right-sub {
+    font-size: 19px;
+    margin-top: 39.7px;
+    font-weight: 300;
+    font-family: 'Proxima Nova Regular';
+    width: 390px;
+    margin-left: 10px;
+    color: #999999;
+}
+
+.form {
+    display: flex;
+    margin-top: 49px;
+    font-weight: 300;
+}
+
+.number {
+    border-bottom: 1px solid #999999;
+    width: 331px;
+    font-size: 16px;
+    font-family: 'Proxima Nova Regular';
+    color: #999999;
+}
+
+.send-number {
+    background-color: #EC9D11;
+    width: 66px;
+    height: 42px;
+    border-radius: 20px;
+    font-family: 'Proxima Nova Regular';
+    margin-left: 19px;
+}
+
+input[type="text"] {
+    padding-left: 10px;
+}
+
+.number::placeholder {
+    color: #999999;
+    font-family: 'Proxima Nova Regular';
+}
+
+.number:placeholder-shown {
+    padding-left: 10px;
+}
+
+.send-number img {
+    width: 17px;
+}
+
+.footer {
+    margin-top: 112.5px;
+    background: url(./img/Vector2.svg) 50% no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 164px 0 112px 0;
+    font-family: 'Proxima Nova Regular';
+    color: #FFFFFF;
+    height: 417px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-first-floor {
+    display: flex;
+    height: 64.88px;
+}
+
+.logo {
+    position: relative;
+    bottom: 15px;
+    margin-right: 177px;
+}
+
+.footer-menu {
+    height: 64.88px;
+}
+
+.footer-menu-items {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-menu-item {
+    font-size: 16px;
+    margin-right: 33.3px;
+    min-width: 44px;
+}
+
+.call-me {
+    font-family: 'Proxima Nova Regular';
+    color: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 33px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: auto;
+}
+
+.footer-second-floor {
+    display: flex;
+    margin-top: 31.11px;
+}
+
+.mail {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.icon img {
+    width: 31.11px;
+}
+
+.roots {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 29px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1330px;
+    }
+    .sec-1-title {
+        padding-top: calc(115px + (248 - 115) * (100vw / 1230));
+    }
+    .sec-1-teachers {
+        margin-top: calc(25px + 115 * (100vw / 1230));
+    }
+    .sec-1-teacher {
+        margin-right: calc(30px + 10 * (100vw / 1230));
+        margin-bottom: calc(30px + 10 * (100vw / 1230));
+        width: 500px;
+        height: 390px;
+    }
+    .sec-1-teacher img {
+        height: 346px;
+    }
+    .teacher-info {
+        width: 226px;
+        height: auto;
+    }
+    .teacher-info,
+    .teacher-specialisation {
+        font-size: 12px;
+    }
+    .teacher-name {
+        font-size: 14px;
+    }
+    .teacher-lessons {
+        font-size: 12px;
+        bottom: 6px;
+        width: 175px;
+    }
+    .sec-2 {
+        margin-top: 50px;
+    }
+    .sec-2-right {
+        margin-top: 50px;
+    }
+}
