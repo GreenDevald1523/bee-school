@@ -546,7 +546,7 @@ button.send-number:hover {
 
 .sec-1-teacher-mob {
     width: 341px;
-    height: 642px;
+    height: 642px !important;
     border-radius: 30px;
     padding: 0 15px;
     background-color: white;
@@ -588,13 +588,15 @@ button.send-number:hover {
 .sec-1-teacher-mob-info {
     font-family: 'Proxima Nova Regular';
     font-size: 14px;
-    line-height: 21px;
+    line-height: 140%;
     color: rgba(46, 40, 67, 0.92);
     margin-top: 14px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 315px;
+    padding-left: 15px;
+    max-width: 307px !important;
+    height: 240px;
 }
 
 .sec-1-teacher-mob-lessons {
@@ -610,7 +612,7 @@ button.send-number:hover {
     margin-right: auto;
     display: block;
     bottom: 11px;
-    top: 46px;
+    top: 0px;
 }
 
 .slick-dots {
@@ -1144,7 +1146,7 @@ button.send-number:hover {
         max-width: 650px;
     }
     .footer {
-        height: 584px !important;
+        height: 644px !important;
     }
     .sec-2 .container {
         flex-direction: column;
