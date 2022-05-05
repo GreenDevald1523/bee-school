@@ -1158,3 +1158,21 @@ button.send-number:hover {
         display: block;
     }
 }
+
+@media (max-width: 700px) {
+    .container {
+        max-width: 520px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 472px) {
+    .container {
+        max-width: 360px;
+    }
+}
