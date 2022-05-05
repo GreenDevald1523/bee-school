@@ -866,6 +866,12 @@ button.send-number:hover {
     margin-top: 30px;
 }
 
+@media (min-width: 1440px) {
+    .sec-1 {
+        background: none;
+    }
+}
+
 @media (max-width: 1500px) {
     .sec-2 {
         margin-top: 0px;
@@ -1167,7 +1173,7 @@ button.send-number:hover {
 
 @media (max-width: 550px) {
     .container {
-        max-width: 400px;
+        max-width: 450px;
     }
 }
 
