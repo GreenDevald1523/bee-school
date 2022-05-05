@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css">
-    <script src="//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <title>bee school</title>
 </head>
 
@@ -18,15 +18,34 @@
             <div class="header">
                 <div class="container">
                     <a href="index.html" class="logo">
-                        <img src="./img/logo.png" alt="logo">
+                        <img src="./img/logo.svg" alt="logo">
                     </a>
                     <nav class="menu">
                         <ul class="menu__items">
                             <a class="menu__item">Курсы</a>
                             <a class="menu__item">Вход</a>
-                            <button class="menu__item">Начать обучение</button>
+                            <button class="menu__item ">Начать обучение</button>
                         </ul>
                     </nav>
+                    <input type="checkbox" class="toggler">
+                    <div class="hamburger">
+                        <div></div>
+                    </div>
+                    <div class="bmenu">
+                        <div>
+                            <ul>
+                                <li><a href='#'>Курсы</a></li>
+                                <li><a href='#'>Вход</a></li>
+                                <li><a href='#'>Начать обучение</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="index.html" class="moblogo">
+                        <img src="./img/moblogo.png" alt="1">
+                    </a>
+                    <button class="singout">
+                        <img src="./img/Sign Out.png" alt="1">
+                    </button>
                 </div>
             </div>
             <main class="main">
@@ -141,12 +160,94 @@
                                 </div>
                             </div>
                         </div>
+                        <h2 class="sec-1-mob-title">
+                            Мы делаем курсы, которые помогают не только разобраться в ЕГЭ, но и прокачаться настолько, чтобы стать полноценным специалистом в своей сфере!
+                        </h2>
+                        <div class="sec-1-teachers-mob">
+                            <div class="sec-1-teacher-mob">
+                                <h2 class="sec-1-teacher-mob-title">
+                                    Дмитрий Пивоваров
+                                </h2>
+                                <p class="sec-1-teacher-mob-specialisation">
+                                    Профильная математика
+                                </p>
+                                <img class="sec-1-teacher-mob-img" src="./img/Дима 2.png" alt="1">
+                                <p class="sec-1-teacher-mob-info">
+                                    Образование <br> Инженер-конструктор ракетных двигателей МГТУ им. Н. Э. Баумана. <br> Преподавательский стаж — 5 лет. За это время сотрудничал с двумя организациями по подготовке к экзаменам и успел обучить около 100
+                                    учеников. <br> Средний балл среди его выпускников — 82, трое учеников сдали ЕГЭ на 100 баллов.
+                                </p>
+                                <button class="sec-1-teacher-mob-lessons">
+                                    Уроки преподавателя
+                                </button>
+                            </div>
+                            <div class="sec-1-teacher-mob">
+                                <h2 class="sec-1-teacher-mob-title">
+                                    Дмитрий Пивоваров
+                                </h2>
+                                <p class="sec-1-teacher-mob-specialisation">
+                                    Профильная математика
+                                </p>
+                                <img class="sec-1-teacher-mob-img" src="./img/imgonline-com-ua-Resize-uZFlsXG2pE0TGcg 2.png" alt="1">
+                                <p class="sec-1-teacher-mob-info">
+                                    Образование <br> Инженер-конструктор ракетных двигателей МГТУ им. Н. Э. Баумана. <br> Преподавательский стаж — 5 лет. За это время сотрудничал с двумя организациями по подготовке к экзаменам и успел обучить около 100
+                                    учеников. <br> Средний балл среди его выпускников — 82, трое учеников сдали ЕГЭ на 100 баллов.
+                                </p>
+                                <button class="sec-1-teacher-mob-lessons">
+                                    Уроки преподавателя
+                                </button>
+                            </div>
+                            <div class="sec-1-teacher-mob">
+                                <h2 class="sec-1-teacher-mob-title">
+                                    Дмитрий Пивоваров
+                                </h2>
+                                <p class="sec-1-teacher-mob-specialisation">
+                                    Профильная математика
+                                </p>
+                                <img class="sec-1-teacher-mob-img" src="./img/ЛЕВ 2.png" alt="1">
+                                <p class="sec-1-teacher-mob-info">
+                                    Образование <br> Инженер-конструктор ракетных двигателей МГТУ им. Н. Э. Баумана. <br> Преподавательский стаж — 5 лет. За это время сотрудничал с двумя организациями по подготовке к экзаменам и успел обучить около 100
+                                    учеников. <br> Средний балл среди его выпускников — 82, трое учеников сдали ЕГЭ на 100 баллов.
+                                </p>
+                                <button class="sec-1-teacher-mob-lessons">
+                                    Уроки преподавателя
+                                </button>
+                            </div>
+                            <div class="sec-1-teacher-mob">
+                                <h2 class="sec-1-teacher-mob-title">
+                                    Дмитрий Пивоваров
+                                </h2>
+                                <p class="sec-1-teacher-mob-specialisation">
+                                    Профильная математика
+                                </p>
+                                <img class="sec-1-teacher-mob-img" src="./img/маша 2.png" alt="1">
+                                <p class="sec-1-teacher-mob-info">
+                                    Образование <br> Инженер-конструктор ракетных двигателей МГТУ им. Н. Э. Баумана. <br> Преподавательский стаж — 5 лет. За это время сотрудничал с двумя организациями по подготовке к экзаменам и успел обучить около 100
+                                    учеников. <br> Средний балл среди его выпускников — 82, трое учеников сдали ЕГЭ на 100 баллов.
+                                </p>
+                                <button class="sec-1-teacher-mob-lessons">
+                                    Уроки преподавателя
+                                </button>
+                            </div>
+                            <div class="sec-1-teacher-mob">
+                                <h2 class="sec-1-teacher-mob-title">
+                                    Дмитрий Пивоваров
+                                </h2>
+                                <p class="sec-1-teacher-mob-specialisation">
+                                    Профильная математика
+                                </p>
+                                <img class="sec-1-teacher-mob-img" src="./img/alisa 2.png" alt="1">
+                                <p class="sec-1-teacher-mob-info">
+                                    Образование <br> Инженер-конструктор ракетных двигателей МГТУ им. Н. Э. Баумана. <br> Преподавательский стаж — 5 лет. За это время сотрудничал с двумя организациями по подготовке к экзаменам и успел обучить около 100
+                                    учеников. <br> Средний балл среди его выпускников — 82, трое учеников сдали ЕГЭ на 100 баллов.
+                                </p>
+                                <button class="sec-1-teacher-mob-lessons">
+                                    Уроки преподавателя
+                                </button>
+                            </div>
+                        </div>
                         <div class="scroll-line">
 
                         </div>
-                    </div>
-                    <div class="sec-1-bg">
-                        <img src="./img/Vector1.svg" alt="bg1">
                     </div>
                 </section>
                 <section class="sec-2">
@@ -173,27 +274,67 @@
             </main>
             <footer class="footer">
                 <div class="container">
-                    <div class="footer-first-floor">
-                        <a href="index.html" class="logo">
-                            <img src="./img/wlogo.png" alt="logo">
-                        </a>
-                        <nav class="footer-menu">
-                            <ul class="footer-menu-items">
-                                <a href="" class="footer-menu-item">Главная</a>
-                                <a href="" class="footer-menu-item">Курсы</a>
-                                <a href="" class="footer-menu-item">Преподаватели</a>
-                                <a href="" class="footer-menu-item">О нас</a>
-                                <a href="" class="footer-menu-item">Контакты</a>
+                    <div class="footer-desk">
+                        <div class="footer-first-floor">
+                            <a href="index.html" class="logo">
+                                <img src="./img/wlogo.svg" alt="logo">
+                            </a>
+                            <nav class="footer-menu">
+                                <ul class="footer-menu-items">
+                                    <a href="" class="footer-menu-item">Главная</a>
+                                    <a href="" class="footer-menu-item">Курсы</a>
+                                    <a href="" class="footer-menu-item">Преподаватели</a>
+                                    <a href="" class="footer-menu-item">О нас</a>
+                                    <a href="" class="footer-menu-item">Контакты</a>
+                                </ul>
+                            </nav>
+                            <button class="call-me">
+                                Перезвоните мне
+                            </button>
+                        </div>
+                        <div class="footer-second-floor">
+                            <a href="tomail:bee.school@yandex.ru" class="mail">
+                                bee.school@yandex.ru
+                            </a>
+                            <div class="icons">
+                                <a href="" class="icon">
+                                    <img src="https://beeschool.team/wp-content/uploads/2022/02/tiktok.svg" alt="tiktok">
+                                </a>
+                                <a href="" class="icon">
+                                    <img src="https://beeschool.team/wp-content/uploads/2022/02/youtube.svg" alt="youtube">
+                                </a>
+                                <a href="" class="icon">
+                                    <img src="https://beeschool.team/wp-content/uploads/2022/02/telegram.svg" alt="telegram">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="roots">
+                            2021. Все права защищены
+                        </div>
+                    </div>
+                    <div class="footer-mob">
+                        <div class="logo">
+                            <img src="./img/wlogo.svg" alt="1">
+                        </div>
+                        <nav class="footer-mob-menu">
+                            <ul class="footer-mob-menu-items">
+                                <div class="col-left">
+                                    <a href="" class="footer-mob-menu-item">Главная</a>
+                                    <a href="" class="footer-mob-menu-item">Курсы</a>
+                                    <a href="" class="footer-mob-menu-item">Преподаватели</a>
+                                </div>
+                                <div class="col-right">
+                                    <a href="" class="footer-mob-menu-item">О нас</a>
+                                    <a href="" class="footer-mob-menu-item">Контакты</a>
+                                </div>
                             </ul>
                         </nav>
-                        <button class="call-me">
-                            Перезвоните мне
-                        </button>
-                    </div>
-                    <div class="footer-second-floor">
                         <a href="tomail:bee.school@yandex.ru" class="mail">
                             bee.school@yandex.ru
                         </a>
+                        <button class="call-me">
+                            Перезвоните мне
+                        </button>
                         <div class="icons">
                             <a href="" class="icon">
                                 <img src="https://beeschool.team/wp-content/uploads/2022/02/tiktok.svg" alt="tiktok">
@@ -205,15 +346,17 @@
                                 <img src="https://beeschool.team/wp-content/uploads/2022/02/telegram.svg" alt="telegram">
                             </a>
                         </div>
-                    </div>
-                    <div class="roots">
-                        2021. Все права защищены
+                        <div class="roots">
+                            2021. Все права защищены
+                        </div>
                     </div>
                 </div>
             </footer>
         </div>
     </div>
-    <script src="/main.js"></script>
+    <script type="text/javascript" src="./slick/slick.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
