@@ -325,7 +325,10 @@ b {
     position: relative;
 }
 
-.sec-2-left img {}
+.sec-2-left img {
+    width: 550px;
+    height: 442px;
+}
 
 .sec-2-right {
     margin-left: 78.43px;
@@ -335,7 +338,7 @@ b {
 }
 
 .sec-2-right-title {
-    font-size: 37px;
+    font-size: 30px;
     font-family: 'Proxima Nova Regular';
     margin-left: 10px;
 }
@@ -394,10 +397,10 @@ input[type="text"] {
     background: url(./img/Vector2.svg) no-repeat;
     background-position: top;
     background-size: cover;
-    padding: 164px 0 112px 0;
+    padding: 100px 0 112px 0;
     font-family: 'Proxima Nova Regular';
     color: #FFFFFF;
-    height: 417px;
+    height: 348px !important;
     z-index: 1;
     position: relative;
     bottom: 0;
@@ -806,11 +809,6 @@ button.send-number:hover {
     display: none;
 }
 
-.footer {
-    height: 334px !important;
-    padding-bottom: 250px;
-}
-
 .footer-mob {
     display: none;
 }
@@ -1083,6 +1081,7 @@ button.send-number:hover {
     }
     .sec-2-left img {
         width: 301px;
+        margin-top: -100px;
     }
     .sec-2-right {
         margin-top: 0;
@@ -1126,6 +1125,14 @@ button.send-number:hover {
     }
     .footer {
         margin-top: 100px;
+        height: 644px !important;
+    }
+    .footer-desk {
+        display: none;
+    }
+    .footer-mob,
+    .footer-mob .logo {
+        display: block;
     }
 }
 
@@ -1145,9 +1152,6 @@ button.send-number:hover {
     .container {
         max-width: 650px;
     }
-    .footer {
-        height: 644px !important;
-    }
     .sec-2 .container {
         flex-direction: column;
         padding-bottom: 0px;
@@ -1156,6 +1160,9 @@ button.send-number:hover {
     .sec-2-right {
         margin-left: auto;
         margin-right: auto;
+    }
+    .sec-2-left img {
+        margin-bottom: -100px;
     }
     .sec-2-left {
         margin-bottom: 30px;
@@ -1181,13 +1188,6 @@ button.send-number:hover {
     }
     .sec-2 {
         margin-top: -300px;
-    }
-    .footer-desk {
-        display: none;
-    }
-    .footer-mob,
-    .footer-mob .logo {
-        display: block;
     }
 }
 
