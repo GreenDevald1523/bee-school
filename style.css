@@ -501,12 +501,24 @@ button.send-number:hover {
     transform: translate(0, 5px);
 }
 
-.menu__item {
+.icon {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.icon:hover {
+    transform: scale(0.9);
+}
+
+.menu__item,
+.footer-menu-item,
+.footer-mob-menu-item {
     transition: all 0.3s ease-in-out 0s;
     padding: 10px;
 }
 
-.menu__item:hover {
+.menu__item:hover,
+.footer-menu-item:hover,
+.footer-mob-menu-item:hover {
     background-color: #EC9D11;
     color: white;
     border-radius: 30px;
